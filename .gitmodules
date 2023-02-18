@@ -1,0 +1,3 @@
+[submodule "astroschen.github.io"]
+	path = astroschen.github.io
+	url = https://github.com/astroschen/astroschen.github.io.git
