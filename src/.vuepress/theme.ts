@@ -6,7 +6,12 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",  
 
   // 深色主题切换  switch toggle auto enable disable
-  darkmode: "switch",
+  // "switch": 在深色模式，浅色模式和自动之间切换
+  // "toggle": 在深色模式和浅色模式之间切换
+  // "auto": 自动根据用户设备主题或当前时间决定是否应用深色模式
+  // "enable": 强制深色模式
+  // "disable": 禁用深色模式
+  darkmode: "enable",
 
   // 主题色
   themeColor: {
@@ -37,17 +42,17 @@ export default hopeTheme({
   blog: {
     medias: {
       // Baidu: "https://example.com",
-      BiliBili: "https://example.com",
+      BiliBili: "https://space.bilibili.com/6572920",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "https://example.com",
+      Email: "jtar@qq.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
+      // Gitee: "https://example.com",
+      GitHub: "https://github.com/astroschen",
       // Gitlab: "https://example.com",
       // Gmail: "https://example.com",
       // Instagram: "https://example.com",
@@ -61,9 +66,9 @@ export default hopeTheme({
       // Reddit: "https://example.com",
       // Rss: "https://example.com",
       // Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
+      // Twitter: "https://example.com",
+      // Wechat: "https://example.com",
+      // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
       // Zhihu: "https://example.com",
@@ -88,7 +93,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "",
         intro: "/intro.html",
       },
 
@@ -101,7 +106,7 @@ export default hopeTheme({
     /**
      * English locale config
      */
-    "/en/": {
+    /* "/en/": {
       // navbar
       navbar: enNavbar,
 
@@ -120,7 +125,7 @@ export default hopeTheme({
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
-    },
+    }, */
   },
 
   encrypt: {

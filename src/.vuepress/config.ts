@@ -11,11 +11,11 @@ export default defineUserConfig({
       head: [['link', { rel: 'icon', href: '/assets/icon/myAvatar.png' }]],
       description: "astroschen的咖啡馆",
     },
-    "/en/": {
+    /* "/en/": {
       lang: "en-US",
       title: "Blog Demo",
       description: "A blog demo for vuepress-theme-hope",
-    },
+    }, */
   },
 
   theme,

@@ -4,17 +4,17 @@ layout: BlogHome
 icon: home
 title: 首页
 # 主页的图标与描述
-hero: false
+hero: true
 # 主页首页中间logo图片
 # heroImage: /logo.svg
 # 主页背景图片
-bgImage: true
+bgImage: "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wwu9?ver=69d6"
 # 主页名称文字
-heroText: false
+heroText: "星空下的咖啡馆"
 # 主页副标题文字
-tagline: false
+tagline: 'A café under the starry sky'
 # 主页背景图片是否撑满
-heroFullScreen: false
+heroFullScreen: true
 projects:
   - icon: project
     name: 项目名称
